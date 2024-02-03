@@ -1,0 +1,182 @@
+@media only screen and (max-width:768px){
+    .caro-img{
+        height: 45vh;
+    }
+}
+
+.gold-btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(174, 156, 57);
+    border-radius: 30px;
+    transition: .3s all ease;
+}
+
+.gold-btn:hover {
+    background-color: rgb(187, 168, 63);
+
+}
+
+/* #navbar {
+    box-shadow: 5px 5px 20px black;
+} */
+
+ul.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.custom-list li:before {
+    content: "\203A";
+    margin-right: 5px;
+}
+
+.amini-ele {
+    transition: transform 0.3s ease-in-out;
+}
+
+.amini-ele:hover {
+    transform: scale(1.05);
+}
+
+.myForm::placeholder {
+    color: white;
+}
+
+.myForm,
+.myfrm2 {
+    color: white;
+}
+
+.myForm {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: .5px solid rgba(174, 156, 57);
+}
+
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.70),
+            rgba(0, 0, 0, 0.70)), url(./images/contact-enquiry-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.myfrm2 {
+    background: rgba(0, 0, 0, 0) !important;
+    border: none;
+    border-bottom: .5px solid rgb(174, 156, 57);
+}
+
+.myfrm2::placeholder {
+    color: white;
+}
+
+.myfrm21 {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border: none;
+    border-bottom: .5px solid rgb(174, 156, 57);
+}
+
+.myfrm21::placeholder {
+    color: white;
+}
+
+.stic-btn {
+    background-color: rgb(174, 156, 57);
+    border: none;
+}
+
+/* .card-content p {
+    display: none;
+    transition: display 0.3s ease-in-out;
+}
+
+.card:hover .card-content p {
+    display: block;
+}
+
+
+.card-content p {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-content p {
+    opacity: 1;
+} */
+
+/* @media only screen and (max-width:320px){
+    .card-Hover{
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .card-Hover{
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .card-Hover{
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .card-Hover{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .card-Hover{
+        height: 400px;
+    }
+} */
+
+/* .card-body {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+.card:hover .card-body {
+    opacity: 1;
+    transform: translateY(260px);
+}
+
+.card{
+    transition: height 0.3s ease-in-out;
+} */
+
+.showcontent1 {
+    transition: height 1s;
+    height: 0px;
+    overflow: hidden;
+}
+
+.bshadow {
+    box-shadow: 0 0 8px #666666;
+}
+
+
+.parent-content {
+    transition: transform 1s;
+    overflow: hidden;
+}
+
+.parent-content:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.parent-content:hover .child-content {
+    opacity: 1;
+    margin: 0px;
+}
+
+.child-content {
+    transition: margin 1s, opacity 0.3s ease-in-out;
+    opacity: 0;
+    margin: -80px
+}
